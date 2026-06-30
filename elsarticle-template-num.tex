@@ -53,6 +53,7 @@
 \usepackage{amsmath}
 \usepackage{amsthm}
 \usepackage[version=4]{mhchem}
+\usepackage[hidelinks]{hyperref}
 \newtheorem{theorem}{Theorem}
 
 %% The amsthm package provides extended theorem environments
@@ -112,6 +113,15 @@
 %%             state={},
 %%             country={}}
 
+\author[inst1]{Laurence N. Hunter}
+\ead{laurence.hunter@live.com}
+
+\author[inst3]{Ciaran Reid\fnref{ciaran}}
+\ead{ciaran.reid@crondall-energy.com}
+
+\author[inst2]{Murray Anderson\fnref{murray}}
+\ead{murray.anderson@crondall-energy.com}
+
 \author[inst1]{Andrew Smallbone}
 
 \affiliation[inst1]{organization={Department of Engineering, University of Durham},%Department and Organization
@@ -120,6 +130,21 @@
             postcode={DH1 3LE}, 
             state={Durham},
             country={UK}}
+
+\affiliation[inst2]{organization={Crondall Energy},
+            addressline={The Capitol, 431 Union Street}, 
+            city={Aberdeen},
+            postcode={AB11 6DA}, 
+            country={United Kingdom}}
+
+\affiliation[inst3]{organization={Crondall Energy},
+            addressline={Floor 3, Suite 6, 10 Bothwell Street}, 
+            city={Glasgow},
+            postcode={G2 6NT}, 
+            country={United Kingdom}}
+
+\fntext[ciaran]{Subsea Engineer}
+\fntext[murray]{Senior Advisor}
 
 %\affiliation[inst2]{organization={Department Two},%Department and Organization
 %            addressline={Address Two}, 
